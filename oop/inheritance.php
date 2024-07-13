@@ -22,10 +22,12 @@
 
             }
         }
-        $cherry = new Cherry("cherry", "red");
+        $cherry = new Cherry("cherry", "red",20);
         $cherry->message();
         $cherry->intro();
 
         ?>
     </body>
 </html>
+
+
